@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Hugging Face model cache and downloaded weights
+hf_cache/
+.cache/
+*.safetensors
+pytorch_model*.bin
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
